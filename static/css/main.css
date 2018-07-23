@@ -1,0 +1,245 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+		font-family: helvetica;
+  }
+
+main {
+  flex: 1 0 auto;
+}
+
+nav,
+.page-footer {
+	background-color: #003d85;
+}
+
+.footer-links {
+	margin-left: 0.5em;
+}
+
+.create-alert {
+	margin-top: 1em;
+}
+
+.site-title {
+	font-size: 0.6em;
+	position: relative;
+	margin-left: 0.5em;
+	top: -4px;
+	width: 150px;
+	line-height: 20px;
+	font-style: bold;
+	display: inline-block;
+}
+
+.img-logo {
+	margin-top: 0.28em;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: 0.08em;
+}
+.tag {
+	display: inline-block;
+	padding: 0.5em;
+	margin: 0.25em;
+	border: 1px solid #DDD;
+  border-radius: 0.5em;
+}
+
+.shaded {
+	background-color: #003d85;
+	color: white;
+}
+
+#alertOne {
+	padding: 20px;
+}
+
+.alertTag {
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.signup {
+	margin-bottom: 0.7em;
+}
+
+.or {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.btn {
+	background-color: #00B455;
+}
+
+.google-img {
+	display: block;
+	width: 75%;
+	margin: 0 auto;
+	height: auto;
+}
+
+.delete {
+	font-size: 16px;
+}
+
+.submitChange {
+	margin-top: 1em;
+}
+
+label,
+input {
+	font-size: 16px;
+}
+.alertLabel{
+	color: black;
+}
+
+.account {
+	margin-bottom: .7em;
+}
+
+#modal1 {
+	max-height: 90%;
+}
+
+.hide {
+	display: none;
+}
+
+.collapsible-labels {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.collapsible-header {
+	display: flex;
+	align-items: center;
+}
+
+.committee-name, .bill-title, .bill-date {
+	flex: 1;
+}
+
+.bill-date {text-align: right;}
+
+.planningCommittee {
+	background-color: rgba(252, 179, 175, 0.2);
+	transition: 0.2;
+}
+
+.transportationCommittee {
+	background-color: rgba(185, 228, 141, 0.2);
+	transition: 0.2;
+}
+
+.energyCommittee {
+	background-color: rgba(183, 187, 250, 0.2);
+	transition: 0.2;
+}
+
+.housingCommittee {
+	background-color: rgba(157, 217, 228, 0.2);
+	transition: 0.2;
+}
+
+.economicCommittee {
+	background-color: rgba(221, 181, 143, 0.2);
+	transition: 0.2;
+}
+
+.parksCommittee {
+	background-color: rgba(157, 253, 200, 0.2);
+	transition: 0.2;
+}
+
+.publicSafetyCommittee {
+	background-color: rgba(215, 157, 227, 0.2);
+	transition: 0.2;
+}
+
+.librariesCommittee {
+	background-color: rgba(181, 253, 203, 0.2);
+	transition: 0.2;
+}
+
+.builtCommittee {
+	background-color: rgba(252, 236, 167, 0.2);
+	transition: 0.2;
+}
+
+.noCommittee {
+	background-color: #fff;
+	transition: 0.2;
+}
+
+.planningCommittee:hover {
+	background-color: rgba(252, 179, 175, 0.6);
+}
+
+.transportationCommittee:hover {
+	background-color: rgba(185, 228, 141, 0.6);
+}
+
+.energyCommittee:hover {
+	background-color: rgba(183, 187, 250, 0.6);
+}
+
+.housingCommittee:hover {
+	background-color: rgba(157, 217, 228, 0.6);
+}
+
+.economicCommittee:hover {
+	background-color: rgba(221, 181, 143, 0.6);
+}
+
+.parksCommittee:hover {
+	background-color: rgba(157, 253, 200, 0.6);
+}
+
+.publicSafetyCommittee:hover {
+	background-color: rgba(215, 157, 227, 0.6);
+}
+
+.librariesCommittee:hover {
+	background-color: rgba(181, 253, 203, 0.6);
+}
+
+.builtCommittee:hover {
+	background-color: rgba(252, 236, 167, 0.6);
+}
+
+.noCommittee:hover {
+	background-color: #fff;
+}
+
+@media screen and (min-width: 600px) {
+  .site-title {
+    font-size: 0.8em;
+    top: 0.1em;
+    line-height: 25px;
+    width: 200px;
+  }
+  
+.home-btns {
+	margin-top: 0.5em;
+}
+
+.btn-container {
+	width: 100%;
+	text-align: right;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+	color: #003d85;
+}
+
+/********* KACY CSS ****************/
+

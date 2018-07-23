@@ -1,0 +1,43 @@
+<div class="row">
+
+	<!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h5 class="signup">Sign up to create an alert:</h5>
+      <img class="google-img center" src="../img/google.png">
+   		<div class="or">
+      	<h5>or</h5>
+    	</div>
+      <label>Name</label>
+      <input label="name" type="text" name="name"></input>
+      <label>Email</label>
+			<input label="email" type="email" name="email"></input>
+			<label>Password</label>
+			<input label="email" type="password" name="password"></input>
+    </div>
+    <div class="modal-footer">
+      <a href="/" class="modal-close waves-effect waves-green btn">Set Alert</a>
+    </div>
+  </div>
+
+	<div class="col s12">
+		<h5>What legislation topics do you want to be notified about?</h5>
+		<!-- EJS would go here to conditionally render topics -->
+		<p class="tag">Healthcare</p>
+		<p class="tag">Homelessness</p>
+		<p class="tag">Affordable Housing</p>
+		<p class="tag">Land Use</p>
+		<p class="tag">Transportation</p>
+		<p class="tag">Public Safety</p>
+		<p class="tag">Civil Rights</p>
+		<p class="tag">Parks & Neighborhoods</p>
+	</div>
+
+	<div class="col s12">
+		<h5>or tell us a keyword you want us to watch for:</h5>
+		<input type="text" name="search"></input>
+		<!-- Modal Trigger -->
+  	<button data-target="modal1" class="create-alert btn right modal-trigger">Create Alert</button>
+	</div>
+	
+</div>
